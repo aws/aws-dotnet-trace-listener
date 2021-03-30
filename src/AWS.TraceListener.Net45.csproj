@@ -29,7 +29,7 @@
         <AssemblyOriginatorKeyFile>$(AWSKeyFile)</AssemblyOriginatorKeyFile>
       </PropertyGroup>
     </Otherwise>
-  </Choose>  
+  </Choose>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
     <DebugType>full</DebugType>
@@ -51,10 +51,10 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="AWSSDK.Core">
-      <HintPath>packages\AWSSDK.Core.3.1.0.0\lib\net45\AWSSDK.Core.dll</HintPath>
+      <HintPath>packages\AWSSDK.Core.3.7.0.3\lib\net45\AWSSDK.Core.dll</HintPath>
     </Reference>
     <Reference Include="AWSSDK.DynamoDBv2">
-      <HintPath>packages\AWSSDK.DynamoDBv2.3.1.0.0\lib\net45\AWSSDK.DynamoDBv2.dll</HintPath>
+      <HintPath>packages\AWSSDK.DynamoDBv2.3.7.0.3\lib\net45\AWSSDK.DynamoDBv2.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
